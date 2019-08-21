@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, str)
   katz_deli << str
-  puts "Welcome, #{str}, You are number #{katz_deli.length} in line."
+  puts "Welcome, #{str}. You are number #{katz_deli.length} in line."
 end
 
 def now_serving(katz_deli)
