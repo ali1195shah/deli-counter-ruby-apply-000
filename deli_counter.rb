@@ -13,10 +13,19 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, str)
-  katz_deli << str
-  puts "Welcome, #{str}. You are number #{katz_deli.length} in line."
+# def take_a_number(katz_deli, str)
+#   katz_deli << str
+#   puts "Welcome, #{str}. You are number #{katz_deli.length} in line."
+# end
+
+
+def take_a_ticket_number(katz_deli)
+  tick_num =  1
+  katz_deli << tick_num
+  puts "Welcome, you have ticket number #{tick_num}"
+  tick_num += 1
 end
+
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
