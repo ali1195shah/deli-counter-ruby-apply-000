@@ -18,9 +18,8 @@ end
 #   puts "Welcome, #{str}. You are number #{katz_deli.length} in line."
 # end
 
-
+tick_num = 1
 def take_a_ticket_number(katz_deli)
-  tick_num =  1
   katz_deli << tick_num
   puts "Welcome, you have ticket number #{tick_num}"
   tick_num += 1
